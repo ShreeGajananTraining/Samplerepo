@@ -1,0 +1,4 @@
+class file{
+public static void main (string[] args){
+System.out.println("Add method")
+}
