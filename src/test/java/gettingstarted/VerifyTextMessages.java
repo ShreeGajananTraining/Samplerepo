@@ -20,6 +20,7 @@ public class VerifyTextMessages {
 		page.locator(".submit-btn").click();
 		String expected = "Email and Password is required";
 		String message = page.locator(".errorMessage").textContent();
+		//String message = page.locator(".errorMessage").in;
 		System.out.println(message);
 		//Assert.assertEquals(expected, message);
 		PlaywrightAssertions.assertThat(page.locator(".errorMessage")).containsText(expected);
