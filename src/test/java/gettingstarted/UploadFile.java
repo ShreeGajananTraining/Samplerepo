@@ -13,10 +13,12 @@ public class UploadFile {
 	Browser browser =Playwright.create().chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
 Page page = browser.newPage();
 page.navigate("https://the-internet.herokuapp.com/upload");
+
+//when we have input tag and type as file then use setInputFiles
 page.locator("#file-upload").setInputFiles(Path.of(System.getProperty("user.dir")+"/Files/Screenshot.png"));
 
-/*Path files[] = {Path.of(System.getProperty("user.dir")+"/files/Screenshot.png"),
-		Path.of(System.getProperty("user.dir")+"/files/Screenshot-Copy1.png")
+/*Path files[] = {Path.of(System.getProperty("user.dir")+"/Files/Screenshot.png"),
+		Path.of(System.getProperty("user.dir")+"/Files/Screenshot-Copy1.png")
 page.locator("#file-upload").setInputFiles(files);
 
 };
