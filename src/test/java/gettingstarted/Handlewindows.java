@@ -12,7 +12,7 @@ public class Handlewindows {
 		
 
 	
-	Browser browser=Playwright.create().chromium().launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(500));
+	Browser browser=Playwright.create().chromium().launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(1000));
 	//For one page or one tab use below
 	//Page page = browser.newPage();
 	
