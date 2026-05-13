@@ -19,7 +19,7 @@ public class HandleAlert {
 			String msg = dialog.message();
 			Assert.assertTrue(msg.contains("I am a JS Alert"));
 			dialog.accept();
-			
+		//	dialog.dismiss();
 			
 			
 		});

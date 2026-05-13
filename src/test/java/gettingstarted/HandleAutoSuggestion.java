@@ -38,7 +38,6 @@ Locator locator = page.locator("xpath=//ul[@role='listbox']//li");
 	}
 	
 	
-	
 	}
 
 }

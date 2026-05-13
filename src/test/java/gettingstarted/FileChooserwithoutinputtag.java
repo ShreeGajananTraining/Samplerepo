@@ -7,6 +7,7 @@ import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.FileChooser;
 import com.microsoft.playwright.Page;
+import com.microsoft.playwright.Page.WaitForFileChooserOptions;
 import com.microsoft.playwright.Playwright;
 
 public class FileChooserwithoutinputtag {
@@ -27,7 +28,6 @@ public class FileChooserwithoutinputtag {
 				};
 		fileChooser.setFiles(files);
 		
-	
 	
 	
 	}
