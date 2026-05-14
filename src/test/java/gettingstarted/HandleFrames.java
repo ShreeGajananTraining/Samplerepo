@@ -22,7 +22,7 @@ public class HandleFrames {
 		page.locator("//button[@class='navOption___418cca']").click();
 		page.locator("//button[@class='primaryButton___462797  ']").click();
 		
-		//page.locator("////input[@type='tel']").fill("888888888");
+		page.locator("//div//input[@type='tel']").fill("888888888");
 		
 	
 		
@@ -31,8 +31,8 @@ public class HandleFrames {
 		System.out.println(allFrames.size());
 		
 		//To get particular frame by FrameLocator
-		FrameLocator getFrame = page.frameLocator("//iframe[@class='modalIframe']");
-		getFrame.locator("//input[@id=''mobileNoInp]").fill("76767677676");
+	//	FrameLocator getFrame = page.frameLocator("//iframe[@class='modalIframe']");
+	//	getFrame.locator("//input[@id=''mobileNoInp]").fill("76767677676");
 		
 		
 		//Inshort above can be written as
