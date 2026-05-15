@@ -21,6 +21,9 @@ Browser browser= Playwright.create().chromium().launch(new BrowserType.LaunchOpt
 		Locator shadowroot = page.locator("div#userName");
 		Locator element = shadowroot.locator("#kils");
 		element.fill("hhhh");
+		
+		//in short
+	//	page.locator("#userName #kils").fill("hhhh");
 	
 	
 	}
