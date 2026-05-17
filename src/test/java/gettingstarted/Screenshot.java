@@ -17,7 +17,7 @@ Browser browser= Playwright.create().chromium().launch(new BrowserType.LaunchOpt
 		page.navigate("https://www.naukri.com/");
 		
 		//screenshot of locator
-		page.locator("//a[@title='Jobseeker Login']").screenshot(new ScreenshotOptions().setPath(Paths.get("Files/Screenshotnew.png")));
+		page.locator("//a[@title='Jobseeker Login']").screenshot(new ScreenshotOptions().setPath(Paths.get("File/Screenshotnew.png")));
 
 		Utility.captureScreenshot(page);
 		
@@ -25,3 +25,6 @@ Browser browser= Playwright.create().chromium().launch(new BrowserType.LaunchOpt
 	}
 
 }
+
+
+
