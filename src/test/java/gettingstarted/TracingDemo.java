@@ -42,12 +42,12 @@ public void loginTest()
 	page.getByPlaceholder("Enter Password").fill("admin@123");
 	page.getByText("Sign in").last().click();
 	PlaywrightAssertions.assertThat(page.locator(".welcomeMessage")).containsText("Welcome");
-	page.getByAltText("menu").click();
+	page.getByAltText("manage").click();
 	page.getByText("Sign out").click();
 	PlaywrightAssertions.assertThat(page).hasURL(Pattern.compile("login"));
 	
 	//stop tracing
-	context.tracing().stop(new Tracing.StopOptions().setPath(Paths.get("Tracing.zip")));
+	context.tracing().stop(new Tracing.StopOptions().setPath(Paths.get("Tracingnew.zip")));
 	
 		}
 	
