@@ -19,7 +19,7 @@ public class WaitInPlaywright {
 	//	page.navigate("https://seleniumpractise.blogspot.com/2016/08/how-to-use-explicit-wait-in-selenium.html");
 		
 		//for 60 seconds
-		page.navigate("https://seleniumpractise.blogspot.com/2016/08/how-to-use-explicit-wait-in-selenium.html",
+page.navigate("https://seleniumpractise.blogspot.com/2016/08/how-to-use-explicit-wait-in-selenium.html",
 				new Page.NavigateOptions().setTimeout(60000));
 		
 	//	page.setDefaultNavigationTimeout(60000);

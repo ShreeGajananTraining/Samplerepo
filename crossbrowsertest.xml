@@ -7,12 +7,14 @@
     </classes>
   </test> 
   
+  
   <test  name="FirefoxTest">
   <parameter name="BrowserName" value="Firefox"></parameter>
     <classes>
       <class name="gettingstarted.CrossBrowsertesting"/>
     </classes>
   </test> 
+  
   
   <test  name="SafariTest">
   <parameter name="BrowserName" value="Safari"></parameter>
