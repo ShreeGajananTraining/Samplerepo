@@ -16,7 +16,7 @@ public class HandlePrompt {
 		Page page=browser.newPage();
 		page.navigate("https://the-internet.herokuapp.com/javascript_alerts");
 		//By just clicking it is not showing alert so to get that handle use below
-		//add this before click bcoz we want to register or we need listener fot this alert
+		//add this before  click bcoz we want to register or we need listener fot this alert
 		
 		
 		page.onDialog(dialog ->{
